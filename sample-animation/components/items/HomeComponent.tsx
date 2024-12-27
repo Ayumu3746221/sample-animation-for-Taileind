@@ -11,7 +11,7 @@ const HomeComponent = () => {
           alt="image of tailwind icon"
           width={128}
           height={128}
-          className="box-content p-4 m-2 motion-preset-bounce motion-duration-700"
+          className="box-content p-4 m-2 motion-preset-bounce motion-duration-700 motion-rotate-in-[-360deg]"
         />
         <div>
           <h2 className="p-4 m-2 text-7xl motion-preset-slide-left hover:motion-preset-expand motion-duration-1000">
