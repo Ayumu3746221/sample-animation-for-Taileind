@@ -1,13 +1,13 @@
 import React from "react";
-import Description from "./Description";
 import ListComponent from "./Description";
+import Image from "next/image";
 
 const HomeComponent = () => {
   return (
     <div className="flex flex-col items-center h-screen">
       <div className="flex justify-center items-center mt-64">
-        <img
-          src="256px-Tailwind_CSS_Logo.svg.png"
+        <Image
+          src="/256px-Tailwind_CSS_Logo.svg.png"
           alt="image of tailwind icon"
           width={128}
           height={128}
